@@ -105,7 +105,7 @@ require('function.php');
                         <div class="card-body card-shadow horloge">
                             <span id="date_heure"></span>
                             <h6><noscript>Veuillez activer Javascript pour l'horloge et les boutons. </noscript></h6>
-                            <a class="pointer" data-toggle="modal" data-target="#Time"><span class="color-gate-text btn-help"><i class="fa fa-question-circle" aria-hidden="true"></i></span></a>
+                            <a class="pointer" data-toggle="modal" data-target="#Time"><span class="color-gate-text btn-help" title="Informations"><i class="fa fa-question-circle" aria-hidden="true"></i></span></a>
                         </div>
                     </div>
                     <div class="card">
@@ -114,8 +114,8 @@ require('function.php');
                             <blockquote class="blockquote mb-0">
                                 <?= randCitation("quotes.json") ?>
                             </blockquote>
-                            <a class="pointer" data-toggle="modal" data-target="#Quotes"><span class="color-gate-text btn-help"><i class="fa fa-question-circle" aria-hidden="true"></i></span></a>
-                        	<a href="quotes.php"><span class="color-gate-text blockquote-list"><i class="fa fa-list-ul" aria-hidden="true"></i></span></a>
+                            <a class="pointer" data-toggle="modal" data-target="#Quotes"><span class="color-gate-text btn-help" title="Informations"><i class="fa fa-question-circle" aria-hidden="true"></i></span></a>
+                        	<a href="quotes.php"><span class="color-gate-text blockquote-list" title="Liste des citations"><i class="fa fa-list-ul" aria-hidden="true"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -182,7 +182,7 @@ require('function.php');
           </button>
           </div>
           <div class="modal-body">
-            editing__times
+            L'horloge affiche l'heure et la date actuelle.
           </div>
         </div>
       </div>
