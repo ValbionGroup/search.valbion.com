@@ -7,28 +7,31 @@ require('function.php');
     <meta charset="utf-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>All quotes | The Gate</title>
-    <meta name="description" content="A simple page that gives you faster access to content to develop & search without wasting time.">
-    <meta name="Keywords" content="thomasbnt,outil,developper,dev,french,francais,gate,portail,vie,privée,open,source,duckduckgo">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="googlebot" content="noindex, nofollow">
+    <title>Liste des citation - SEARCH | IslandGAME</title>
+    <meta name="description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps.">
+    <meta name="Keywords" content="islandgame,search,gratuit,free,outil,developper,dev,french,francais,gate,portail,vie,privée,open,source,duckduckgo">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
     <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
     <!-- OG -->
-    <meta property="og:title" content="The Gate"/>
+	<meta property="og:url" content="https://islandgame.fr/search">
+	<meta property="og:image:alt" content="Search Logo Icon">
+	<meta property="og:site_name" content="SEARCH | IslandGAME" />
+	<meta property="og:title" content="SEARCH - IslandGAME"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://gate.thomasbnt.fr/assets/img/favicon.png"/>
-    <meta property="og:description" content="A simple page that gives you faster access to content to develop & search without wasting time."/>
+    <meta property="og:image" content="https://islandgame.fr/search/assets/img/favicon.png"/>
+    <meta property="og:description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps."/>
     <!-- Twitter Card -->
-    <meta name="twitter:url" content="https://gate.thomasbnt.fr/">
+    <meta name="twitter:url" content="https://islandgame.fr/search">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@hyprimort" />
-    <meta name="twitter:title" content="The Gate" />
-    <meta name="twitter:description" content="A simple page that gives you faster access to content to develop & search without wasting time." />
-    <meta name="twitter:image" content="https://gate.thomasbnt.fr/assets/img/favicon.png" />
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="assets/img/favicon.png">
+    <meta name="twitter:site" content="SEARCH | IslandGAME" />
+    <meta name="twitter:title" content="SEARCH - IslandGAME" />
+    <meta name="twitter:description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps." />
+    <meta name="twitter:image" content="https://islandgame.fr/search/assets/img/favicon.png" />
+
     <meta name="theme-color" content="#0b716b">
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="green">
@@ -38,12 +41,12 @@ require('function.php');
     <meta name="msapplication-TileImage" content="assets/img/favicon.png">
     <meta name="msapplication-TileColor" content="#0b716b">
     <!-- End colors and to homescreen -->
-
     <!-- Bootstrap Core-->
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css"  media="screen,projection"/>
-    <!-- Font Awesome V5 -->
-    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
-    <!-- Custom CSS Card -->
+    <!-- Fork Awesome V1 -->
+    <link href="assets/css/fork-awesome.min.css" rel="stylesheet">
+    <!-- Stylesheep custom -->
+    <link async type="text/css" rel="stylesheet" href="assets/css/custom.css">
     <style>
         .card {
             margin: 7px !important;
