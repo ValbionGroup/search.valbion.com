@@ -14,10 +14,10 @@ require('function.php');
     <meta name="googlebot" content="index, follow">
     <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
     <!-- OG -->
-	<meta property="og:url" content="https://islandgame.fr/search">
-	<meta property="og:image:alt" content="Search Logo Icon">
-	<meta property="og:site_name" content="SEARCH | IslandGAME" />
-	<meta property="og:title" content="SEARCH - IslandGAME"/>
+    <meta property="og:url" content="https://islandgame.fr/search">
+    <meta property="og:image:alt" content="Search Logo Icon">
+    <meta property="og:site_name" content="SEARCH | IslandGAME" />
+    <meta property="og:title" content="SEARCH - IslandGAME"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://islandgame.fr/search/assets/img/favicon.png"/>
     <meta property="og:description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps."/>
@@ -28,10 +28,10 @@ require('function.php');
     <meta name="twitter:title" content="SEARCH - IslandGAME" />
     <meta name="twitter:description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps." />
     <meta name="twitter:image" content="https://islandgame.fr/search/assets/img/favicon.png" />
-
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/img/favicon.png">
     <meta name="theme-color" content="#0b716b">
-    <!-- Manifest -->
-    <link rel="manifest" href="manifest.json">
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="green">
@@ -41,12 +41,12 @@ require('function.php');
     <meta name="msapplication-TileImage" content="assets/img/favicon.png">
     <meta name="msapplication-TileColor" content="#0b716b">
     <!-- End colors and to homescreen -->
+
     <!-- Bootstrap Core-->
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css"  media="screen,projection"/>
-    <!-- Fork Awesome V1 -->
-    <link href="assets/css/fork-awesome.min.css" rel="stylesheet">
-    <!-- Stylesheep custom -->
-    <link async type="text/css" rel="stylesheet" href="assets/css/custom.css">
+    <!-- Font Awesome V5 -->
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+    <!-- Custom CSS Card -->
     <style>
         .card {
             margin: 7px !important;
