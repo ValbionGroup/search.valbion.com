@@ -115,9 +115,17 @@ function boutonDevdocs() {
 function boutonWikipedia() {
         recherche = document.getElementById("BarreDeRecherche").value;     
         if(recherche === "") {
-                document.location.href="https://wikipedia.org/wiki/";
+                document.location.href="https://fr.wikipedia.org/wiki/";
         } else {
-                document.location.href="https://wikipedia.org/wiki/" + encodeURIComponent(recherche);
+                document.location.href="https://fr.wikipedia.org/wiki/" + encodeURIComponent(recherche);
+        } 
+}
+function boutonGoogle() {
+        recherche = document.getElementById("BarreDeRecherche").value;     
+        if(recherche === "") {
+                document.location.href="https://google.fr/";
+        } else {
+                document.location.href="https://google.fr/search?q=" + encodeURIComponent(recherche);
         } 
 }
 
