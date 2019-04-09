@@ -11,25 +11,25 @@ require('function.php');
     <meta charset="utf-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>SEARCH | IslandGAME</title>
+    <title>FlashSearch - Portail</title>
     <meta name="description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps.">
-    <meta name="Keywords" content="islandgame,search,gratuit,free,outil,developper,dev,french,francais,gate,portail,vie,privée,open,source,duckduckgo">
+    <meta name="Keywords" content="flash,flashsearch,islandgame,search,gratuit,free,outil,developper,dev,french,francais,gate,portail,vie,privée,open,source,duckduckgo">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
     <!-- OG -->
 	<meta property="og:url" content="https://islandgame.fr/search">
 	<meta property="og:image:alt" content="Search Logo Icon">
-	<meta property="og:site_name" content="SEARCH | IslandGAME" />
-	<meta property="og:title" content="SEARCH - IslandGAME"/>
+	<meta property="og:site_name" content="FlashSearch" />
+	<meta property="og:title" content="FlashSearch - Portail de Recherche"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://islandgame.fr/search/assets/img/favicon.png"/>
     <meta property="og:description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps."/>
     <!-- Twitter Card -->
     <meta name="twitter:url" content="https://islandgame.fr/search">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="SEARCH | IslandGAME" />
-    <meta name="twitter:title" content="SEARCH - IslandGAME" />
+    <meta name="twitter:site" content="FlashSearch" />
+    <meta name="twitter:title" content="FlashSearch - Portail de Recherche" />
     <meta name="twitter:description" content="Une page simple qui vous donne un accès plus rapide au contenu pour développer et rechercher sans perdre de temps." />
     <meta name="twitter:image" content="https://islandgame.fr/search/assets/img/favicon.png" />
 
