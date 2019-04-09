@@ -1,0 +1,16 @@
+{
+  "short_name": "FlashSearch",
+  "name": "FlashSearch | IslandGAME",
+  "icons": [
+    {
+      "src": "https://islandgame.fr/search/assets/img/favicon.png",
+      "type": "image/png",
+      "sizes": "247x232"
+    }
+  ],
+  "start_url": "https://islandgame.fr/search/?utm_source=a2hs",
+  "background_color": "#0b716b",
+  "display": "standalone",
+  "scope": "https://islandgame.fr/search/",
+  "theme_color": "#0b716b"
+}
