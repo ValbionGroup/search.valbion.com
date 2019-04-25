@@ -151,7 +151,9 @@ body {
 
 .color-gate:focus,
 .color-gate:hover {
-  box-shadow: none
+  background-color: #0b716b !important;
+  color: #fefcff !important;  
+  border-color: #0b716b;
 }
 
 .color-gate-text {
@@ -174,7 +176,9 @@ body {
 
 .twitter-color:focus,
 .twitter-color:hover {
-  box-shadow: none
+  background-color: #1da1f2 !important;
+  color: #fefcff !important;  
+  border-color: #1da1f2;
 }
 
 .twitter-color-text {
@@ -197,7 +201,9 @@ body {
 
 .spotify-color:focus,
 .spotify-color:hover {
-  box-shadow: none
+  background-color: #23CF5F !important;
+  color: #fefcff !important;  
+  border-color: #23CF5F;
 }
 
 .spotify-color-text {
@@ -245,7 +251,9 @@ body {
 
 .youtube-color:focus,
 .youtube-color:hover {
-  box-shadow: none
+  background-color: #FF0000 !important;
+  color: #fefcff !important;  
+  border-color: #FF0000;
 }
 
 .youtube-color-text {
@@ -268,7 +276,9 @@ body {
 
 .unsplash-color:focus,
 .unsplash-color:hover {
-  box-shadow: none
+  background-color: #fefcff !important;
+  color: #0C0C0B !important;  
+  border-color: #fefcff !important;
 }
 
 .unsplash-color-text {
@@ -291,7 +301,9 @@ body {
 
 .stackoverflow-color:focus,
 .stackoverflow-color:hover {
-  box-shadow: none
+  background-color: #f08032 !important;
+  color: #fefcff !important;  
+  border-color: #f08032;
 }
 
 .stackoverflow-color-text {
@@ -314,7 +326,9 @@ body {
 
 .wikipedia-color:focus,
 .wikipedia-color:hover {
-  box-shadow: none
+  background-color: #222222 !important;
+  color: #E5E5E5 !important;
+  border-color: #222222;
 }
 
 .wikipedia-color-text {
@@ -337,7 +351,9 @@ body {
 
 .devdocs-color:focus,
 .devdocs-color:hover {
-  box-shadow: none
+    background-color: #3377c0 !important;
+    color: #fefcff !important;
+    border-color: #3377c0;
 }
 
 .devdocs-color-text {
@@ -360,7 +376,9 @@ body {
 
 .default-color:focus,
 .default-color:hover {
-  box-shadow: none
+  background-color: #32464a !important;
+  color: #fefcff !important;
+  border-color: #32464a !important;
 }
 
 .default-color-text {
@@ -383,7 +401,9 @@ body {
 
 .github-color:focus,
 .github-color:hover {
-  box-shadow: none
+  background-color: #0C0C0B !important;     
+  color: #fefcff !important;  
+  border-color: #0C0C0B !important;
 }
 
 .github-color-text {
@@ -406,7 +426,9 @@ body {
 
 .reddit-color:focus,
 .reddit-color:hover {
-  box-shadow: none
+  background-color: #FF4500 !important;
+  color: #fefcff !important;
+  border-color: #FF4500 !important;
 }
 
 .reddit-color-text {
@@ -429,7 +451,9 @@ body {
 
 .mastodon-color:focus,
 .mastodon-color:hover {
-  box-shadow: none
+  background-color: #2588d0 !important;
+  color: #fefcff !important;
+  border-color: #2588d0 !important;
 }
 
 .mastodon-color-text {
@@ -452,7 +476,9 @@ body {
 
 .mail-color:focus,
 .mail-color:hover {
-  box-shadow: none
+  background-color: #45454D !important;
+  color: #fefcff !important;
+  border-color: #45454D !important;
 }
 
 .mail-color-text {
@@ -475,7 +501,9 @@ body {
 
 .soundcloud-color:focus,
 .soundcloud-color:hover {
-  box-shadow: none
+  background-color: #ff5500 !important;
+  color: #fefcff !important;
+  border-color: #ff5500 !important;
 }
 
 .soundcloud-color-text {
@@ -498,7 +526,9 @@ body {
 
 .lastfm-color:focus,
 .lastfm-color:hover {
-  box-shadow: none
+  background-color: #CB0000 !important;
+  color: #fefcff !important;
+  border-color: #CB0000 !important;
 }
 
 .lastfm-color-text {
@@ -521,7 +551,9 @@ body {
 
 .patreon-color:focus,
 .patreon-color:hover {
-  box-shadow: none
+  background-color: #F96854 !important;
+  color: #fefcff !important;
+  border-color: #F96854 !important;
 }
 
 .patreon-color-text {
@@ -585,13 +617,17 @@ body {
 
 .google-color:focus,
 .google-color:hover {
-  box-shadow: none
+  background-color: #ffc107 !important;
+  color: #fefcff !important;
+  border-color: #ffc107 !important;
 }
 
 .google-color {
   color: #ffc107 !important;
   background-color: transparent;
-  border-color: #ffc107 !important
+  border-color: #ffc107 !important;
+  transition: 0.3s;
+  box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 
 .google-color {
@@ -606,6 +642,13 @@ body {
 }
 
 .btn-news {
+  opacity:.5;
+  font-size:20px;
+  top: 6px;
+  position:absolute;
+}
+
+.btn-calendar {
   opacity:.5;
   font-size:20px;
   top: 6px;
