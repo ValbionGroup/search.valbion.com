@@ -69,6 +69,7 @@ Vous voilà sur le site demandé avec votre recherche tapée !
 
  ## V) Informations complémentaires
 
+- Dev principal [ThomasBnt](https://github.com/thomasbnt)
 - Sous licence [GNU GPL v3.0](LICENSE)
 - Tutoriel écrit par [Moostache](https://github.com/eldiegomoustachu)
 - [StartPage : FlashSearch](https://islandgame.fr/search)
