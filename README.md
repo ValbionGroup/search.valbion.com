@@ -1,3 +1,5 @@
+[![CLA assistant](https://cla-assistant.io/readme/badge/IslandGAMEgrp/search.islandgame.fr)](https://cla-assistant.io/IslandGAMEgrp/search.islandgame.fr)
+
 # Comment utiliser FlashSearch ?
 ![Page d'accueil](https://cdn.discordapp.com/attachments/195853124991188993/434495743399559188/Screenshot-2018-4-14_The_Gate.png)_Page d’accueil de FlashSearch._
 
