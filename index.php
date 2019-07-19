@@ -201,7 +201,7 @@ require('function.php');
               <!-- <a class="pointer" data-toggle="modal" data-target="#News"><span style="left: 45px" class="color-gate-text btn-news" title="Actualité"><i class="fa fa-newspaper-o" aria-hidden="true"></i></span></a> -->
               <!-- <a class="pointer" data-toggle="modal" data-target="#Maps"><span style="left: 105px" class="color-gate-text btn-maps" title="Carte"><i class="fa fa-map-o" aria-hidden="true"></i></span></a> -->
               <a class="pointer" data-toggle="modal" data-target="#Settings"><span style="right: 10px"
-                  class="color-gate-text btn-settings"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                  class="color-gate-text btn-settings"><i class="fa fa-cog" aria-hidden="true"></i></a></span>
             </div>
           </div>
         </div>
@@ -209,7 +209,7 @@ require('function.php');
 
       <div class="gate-footer">
 
-        <p></a>Background from Unsplash</p>
+        <p>Background from Unsplash | Version <?php include('VERSION'); ?></p>
       </div>
     </div>
   </div>
@@ -228,7 +228,7 @@ require('function.php');
           <ul>
             <li>Developped by <a class="color-gate-text" href="https://thomasbnt.fr/" target="_blank">Thomas Bnt</a> &
               <a class="color-gate-text" href="https://luchack.fr/" target="_blank">Luc'HACK</a>- Version <span
-                class="color-gate-text">1.0.1</span></li>
+                class="color-gate-text"><?php include('VERSION'); ?></span></li>
             <li>Background recovered randomly from <a class="color-gate-text"
                 href="https://unsplash.com/collections/520359/paysages-background" target="_blank">Unsplash</a></li>
             <li>The project is <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate" target="_blank"
@@ -408,7 +408,7 @@ require('function.php');
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function () {
-      var u = "https://islandgame.fr/analytics/";
+      var u = "https://analytics.islandgame.fr/";
       _paq.push(['setTrackerUrl', u + 'matomo.php']);
       _paq.push(['setSiteId', '1']);
       var d = document,
